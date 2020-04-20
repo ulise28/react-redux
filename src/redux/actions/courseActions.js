@@ -37,7 +37,7 @@ export function loadCourses() {
 }
 
 export function saveCourse(course) {
-  return function (dispatch, getState) {
+  return function (dispatch) {
     dispatch(beginApiCall());
     return courseApi
       .saveCourse(course)
@@ -54,7 +54,7 @@ export function saveCourse(course) {
 }
 
 export function deleteCourse(course) {
-  return function (dispatch, getState) {
+  return function (dispatch) {
     dispatch(deleteCourseOptimistic(course));
     return courseApi.deleteCourse(course.id);
   };

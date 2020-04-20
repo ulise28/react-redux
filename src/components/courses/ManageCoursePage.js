@@ -8,7 +8,7 @@ import { newCourse } from "../../../tools/mockData";
 import Spinner from "../common/Spinner";
 import { toast } from "react-toastify";
 
-function ManageCoursesPage({
+export function ManageCoursePage({
   courses,
   authors,
   loadAuthors,
@@ -86,7 +86,7 @@ function ManageCoursesPage({
   );
 }
 
-ManageCoursesPage.propTypes = {
+ManageCoursePage.propTypes = {
   course: PropTypes.object.isRequired,
   courses: PropTypes.array.isRequired,
   authors: PropTypes.array.isRequired,
@@ -120,4 +120,4 @@ const mapDispatchToProps = {
   saveCourse: courseActions.saveCourse,
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(ManageCoursesPage);
+export default connect(mapStateToProps, mapDispatchToProps)(ManageCoursePage);
