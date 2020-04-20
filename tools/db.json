@@ -8,13 +8,6 @@
       "category": "JavaScript"
     },
     {
-      "id": 2,
-      "title": "React: The Big Picture",
-      "slug": "react-big-picture",
-      "authorId": 1,
-      "category": "JavaScript"
-    },
-    {
       "id": 3,
       "title": "Creating Reusable React Components",
       "slug": "react-creating-reusable-components",
@@ -69,22 +62,6 @@
       "slug": "web-components-shadow-dom",
       "authorId": 1,
       "category": "HTML5"
-    },
-    {
-      "id": 11,
-      "title": "My first course",
-      "authorId": 2,
-      "category": "Software Arch",
-      "createdAt": 1587328099055,
-      "slug": "my-first-course"
-    },
-    {
-      "id": 12,
-      "title": "My second course",
-      "authorId": 1,
-      "category": "Test categ",
-      "createdAt": 1587328586954,
-      "slug": "my-second-course"
     }
   ],
   "authors": [
